@@ -61,11 +61,20 @@
     input {
         font-size: 14px;
         color: #9CA0A9;
-        width: 100%;
         border: none;
         border-bottom: 1px solid #9CA0A9;
         padding: 0;
+        padding-left: 27px;
+
         height: 32px;
+    }
+    .login_img {
+        background: url(login.png) no-repeat ;
+        background-position: left;
+    }
+    .password_img {
+        background: url(password.png) no-repeat ;
+        background-position: left;
     }
 
     .text {
@@ -75,6 +84,7 @@
 
     .a {
         text-decoration: none;
+        color: inherit;
     }
 
     .thin_text {
