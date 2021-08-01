@@ -1,0 +1,59 @@
+@media screen and (max-width: 600px) {
+
+    .title {
+        font-size: 35px;
+        color: #2D3946;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .smallText {
+        font-size: 12px;
+    }
+
+    .align_center {
+        text-align: center;
+    }
+
+
+    .lightGrey_color {
+        color: #9CA0A9;
+    }
+
+    .darkGrey_color {
+        color: #2D3946;
+    }
+
+    .red_color {
+        color: #D9674E;
+    }
+
+    .bold_text {
+        font-weight: bold;
+    }
+
+    .butt {
+        width: 90%;
+        height: 60px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #2D3946;
+        border-radius: 40px;
+        border: 0;
+    }
+
+    .bg_lightGrey {
+        background-color: #9CA0A9;
+    }
+
+    .bg_red {
+        background-color: #D9674E;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+
+    .lang {
+        font-size: 12px;
+        width: min-content;
+        display: grid;
+        grid-auto-flow: column;
+        align-items: center;
+        column-gap: 5px;
+        color: #C4C4C4
+    }
+}
