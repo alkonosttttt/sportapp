@@ -3,7 +3,6 @@
 <head>
     <title>auth</title>
     <link rel="stylesheet" href="../static/auth.css"/>
-    <!--    <link rel="stylesheet" href="../static/auth_reg_reset_elements.css"/>-->
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
     <!--    <link rel="import" href="./lang.html"/>-->
 </head>
@@ -27,25 +26,24 @@
         </div>
 
         <form>
-            <div class="inputs">
-                <input class="login_img" name="email" type="email"  placeholder="Адрес электронной почты"/>
-                <input class="password_img" name="password" type="password" placeholder="Пароль"/>
+            <div class="inputs auth_row_gap">
+                <input class="login_img padding_input" name="email" type="email" placeholder="Адрес электронной почты"/>
+                <input class="password_img padding_input" name="password" type="password" placeholder="Пароль"/>
             </div>
-<!--            <a class="a" href="auth.html">-->
-                <div class="medium_text text small_text">
-                    <a class="a" href="auth.html">
+            <div class="medium_text text small_text">
+                <a class="a" href="auth.html">
                     Забыли пароль?
-                    </a>
-                </div>
-<!--            </a>-->
-            <button name="login" type="submit" class="butt" >Войти</button>
+                </a>
+            </div>
+
+            <button name="login" type="submit" class="butt">Войти</button>
         </form>
 
         <div class="link">
             <div class="thin_text small_text">
                 Нет аккаунта?
             </div>
-            <a class="a" href="auth.html">
+            <a class="a" href="reg1.html">
                 <div class="bold_text small_text">Зарегистрироваться</div>
             </a>
         </div>

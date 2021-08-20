@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>reg</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="./../static/auth.css"/>
+</head>
+<body>
+<div class="auth_reg_reset_wrap">
+    <div class="lang">
+        Русский
+        <img src="../static/vector.png" alt="vector">
+    </div>
+
+    <div class="content_wrap margin_top_reg2">
+        <div class="title">
+            <div>Регистрация</div>
+            <div class="num_reg">2 <span class="num_reg_two">/ 2</span></div>
+        </div>
+
+        <form>
+            <div class="inputs reg_row_gap">
+                <label for="newFIO" class="small_text bold_text">ФИО пользователя</label>
+                <input id="newFIO" name="fio" type="text" placeholder="ФИО"/>
+
+                <label  for="newInstitute" class="small_text bold_text" style="margin-top: 20px">Место обучения</label>
+                <input id="newInstitute" name="institute" type="text" placeholder="Институт"/>
+
+                <label  for="newGroup" class="small_text bold_text" style="margin-top: 20px">Группа</label>
+                <input id="newGroup" name="group" type="text" placeholder="Группа"/>
+
+                <label for="check" class="check">
+                    <input id="check" type="checkbox">
+                    <div>Продолжая, вы принимаете <span style="text-decoration: underline;"><a href="" style="color: #D9674E">Условия использования</a> PskovBars.</span>
+                    </div>
+                </label>
+            </div>
+
+            <button name="reg" type="submit" class="butt">Зарегистрироваться</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

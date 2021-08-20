@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>reg</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="./../static/auth.css"/>
+</head>
+<body>
+<div class="auth_reg_reset_wrap">
+    <div class="lang">
+        Русский
+        <img src="../static/vector.png" alt="vector">
+    </div>
+
+    <div class=content_wrap>
+        <div class="title">
+            <div>Регистрация</div>
+            <div class="num_reg">1 <span class="num_reg_two">/ 2</span></div>
+        </div>
+
+        <form>
+            <div class="inputs reg_row_gap">
+                <label for="newEmail" class="small_text bold_text">Укажите адрес электронной почты</label>
+                    <input id="newEmail" name="email" type="email" placeholder="Адрес электронной почты"/>
+
+                <label  for="newPassword" class="small_text bold_text" style="margin-top: 20px">Создайте пароль</label>
+                    <input id="newPassword" name="password" type="password" placeholder="Пароль"/>
+            </div>
+
+            <button name="login" type="submit" class="next_button">Далее</button>
+        </form>
+
+        <div class="link">
+            <div class="thin_text small_text">
+                Уже есть аккаунт?
+            </div>
+            <a class="a" href="auth.html">
+                <div class="bold_text small_text">Войти</div>
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
